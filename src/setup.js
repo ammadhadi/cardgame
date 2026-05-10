@@ -5,7 +5,7 @@ import { cards } from "./cards"
 export const board = d3.select("#board")
     .attr("x", 1000)
     .append("svg")
-    .attr("height", 600)
+    .attr("height", 650)
     .attr("width", 1100);
 
 const TABLE = { x: 52, y: 70, w: 860, h: 430 }
