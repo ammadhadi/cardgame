@@ -51,3 +51,4 @@ Here we can see the way my proposal should look as a completed project. Each rec
   ### 8/21/19:
   - [x] Live update on wach card click the percentages of win/tie
   - [x] Add more flair to the look of the site
+
