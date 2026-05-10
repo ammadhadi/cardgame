@@ -13,9 +13,12 @@
     "not dead"
   ],
   "scripts": {
-    "start": "webpack-dev-server --config webpack.dev.js",
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "starts": "webpack-dev-server --config webpack.dev.js",
     "watch": "webpack --watch --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js  --optimize-minimize"
+    "builds": "webpack --config webpack.prod.js  --optimize-minimize"
   },
   "repository": {
     "type": "git",
@@ -25,6 +28,9 @@
   "author": "Spencer Tassone",
   "license": "ISC",
   "dependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "autoprefixer": "^9.6.1",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
